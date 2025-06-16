@@ -6,6 +6,7 @@ resource "aws_vpc_endpoint" "ssm" {
   vpc_endpoint_type = "Interface"
   security_group_ids = var.security_group_ids
   private_dns_enabled = true
+  count               = var.enable_ssm_endpoints ? 1 : 0
 }
 
 resource "aws_vpc_endpoint" "ec2messages" {
@@ -15,6 +16,7 @@ resource "aws_vpc_endpoint" "ec2messages" {
   vpc_endpoint_type = "Interface"
   security_group_ids = var.security_group_ids
   private_dns_enabled = true
+  count               = var.enable_ssm_endpoints ? 1 : 0
 }
 
 resource "aws_vpc_endpoint" "ssmmessages" {
@@ -24,4 +26,5 @@ resource "aws_vpc_endpoint" "ssmmessages" {
   vpc_endpoint_type = "Interface"
   security_group_ids = var.security_group_ids
   private_dns_enabled = true
+  count               = var.enable_ssm_endpoints ? 1 : 0
 }

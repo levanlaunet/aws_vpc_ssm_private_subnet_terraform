@@ -101,3 +101,8 @@ variable "ssm_instance_name" {
   type = string
   default = "ssm_ec2_demo_instance"
 }
+variable "enable_ssm_endpoints" {
+  description = "Whether to create the VPC interface endpoints for SSM"
+  type        = bool
+  default     = true
+}

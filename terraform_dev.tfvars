@@ -17,3 +17,4 @@ environment = "dev"
 app_name = "My app"
 ssm_instance_type = "t2.micro"
 ssm_instance_name = "ssm_ec2_demo_instance_1"
+enable_ssm_endpoints = true

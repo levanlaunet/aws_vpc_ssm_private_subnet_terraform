@@ -17,3 +17,4 @@ environment = "pro"
 app_name = "..."
 ssm_instance_type = "..."
 ssm_instance_name = "..."
+enable_ssm_endpoints = true
