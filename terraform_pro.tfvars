@@ -1,0 +1,19 @@
+vpc_name           = "pro-vpc"
+cidr_block         = "..."
+availability_zones = ["...", "..."]
+public_subnet_ips  = ["...", "..."]
+private_subnet_ips = ["...", "..."]
+region             = "..."
+key_pair_path = "..."
+key_pair_name = "..."
+instance_type = "..."
+instance_name = "..."
+public_sg_name = "..."
+public_sg_description = "..."
+private_sg_name = "..."
+private_sg_description = "..."
+# 
+environment = "pro"
+app_name = "..."
+ssm_instance_type = "..."
+ssm_instance_name = "..."
