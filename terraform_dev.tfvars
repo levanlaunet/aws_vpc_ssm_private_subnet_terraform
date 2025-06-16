@@ -14,6 +14,6 @@ private_sg_name = "private_security_group_1"
 private_sg_description = "private_security_group_dec_1"
 # 
 environment = "dev"
-app_name = "CucKuKu"
+app_name = "My app"
 ssm_instance_type = "t2.micro"
 ssm_instance_name = "ssm_ec2_demo_instance_1"
